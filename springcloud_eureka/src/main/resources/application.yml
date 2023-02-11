@@ -4,6 +4,7 @@ server:
 eureka:
   client:
     service-url:
+      # 服务中心地址
       defaultZone: http://127.0.0.1:8761/eureka
     # 关闭立即注册，待服务器启动完成后再注册
     fetch-registry: false
